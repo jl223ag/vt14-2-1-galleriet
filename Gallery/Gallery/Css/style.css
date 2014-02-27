@@ -1,0 +1,69 @@
+﻿body {
+    font-size: 1.1em;
+    background-color: rgba(0,0,0,0.1);
+}
+h1{
+    font-family: 'Trebuchet MS', serif;
+}
+#wrapper{
+    width: 1100px;
+    padding: 50px;
+    margin: 0 auto;
+    background-color: white;
+}
+#theText{
+    padding-bottom: 5px;
+    border-bottom: 15px solid gray;
+    margin-bottom: 35px;
+}
+#left{
+    width: 180px;
+    float: left;
+}
+#left img{
+    border: 4px solid rgba(0,0,0,0.1);
+    box-shadow: 1px 1px 5px black;
+}
+#left img:hover{
+    opacity: 0.8;
+}
+#right{
+    width: 920px;
+    float: left;
+}
+#BigImage{
+    max-width: 770px;
+    display: block;
+    margin: 0 auto;
+    border: 15px solid rgba(0,0,0,0.1);
+    box-shadow: 1px 1px 10px black;
+}
+#UploadImage{
+    margin-top: 10px;
+}
+#footer{
+    clear: left;
+}
+.redBox, .greenBox{
+    display: block;
+    width: 780px;
+    padding: 20px 10px;
+    margin: 0 0 30px 60px;
+}
+.redBox{    
+    color: red;
+    border: 1px solid red;
+    background-color: lightpink;
+}
+.greenBox{
+    color: green;
+    border: 1px solid green;
+    background-color: lightgreen;
+}
+.yellow{
+    background-color: yellow;
+    transition: all 0.3s ease;
+}
+.yellow:hover{
+    background-color: lightblue;
+}
